@@ -1,0 +1,82 @@
+html {
+  height: 100%;
+  background: linear-gradient(to bottom, #006600 0%, #090A0F 100%);
+  overflow: hidden;
+}
+
+body {
+  background: transparent;
+  color: #ffffff;
+}
+
+.green-light {
+  text-shadow: 0 0 10px #7fff7f,
+         0 0 20px #7fff7f,
+         0 0 30px #7fff7f,
+         0 0 40px #99ff99,
+         0 0 70px #99ff99,
+         0 0 80px #b2ffb2,
+         0 0 100px #b2ffb2,
+         0 0 150px #b2ffb2;
+}
+
+.clock {
+  overflow: hidden;
+}
+
+.col-md-12 {
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.top-pane {
+text-align: center;
+  margin-bottom: 0px;
+  border-radius: 5px 5px 0px 0px;
+  background-color:   #003000;
+  border: 0px;
+}
+
+.bottom-pane {
+text-align: center;
+  margin-top: 0px;
+  border-radius: 0px 0px 5px 5px;
+  background-color: #001900;
+  border: 0px;
+}
+
+@media (min-width: 768px) {
+  .num {
+  font-size: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .num {
+  font-size: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .num {
+  font-size: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .text {
+  font-size: 35px;
+  }
+}
+
+@media (max-width: 767px) {
+  .text {
+  font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .text {
+  font-size: 15px;
+  }
+}

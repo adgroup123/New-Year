@@ -1,0 +1,42 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: #dbf3f9;
+    background: -moz-radial-gradient(center, ellipse cover, #dbf3f9 0%, #b7e0e5 50%, #7ddbe8 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, #dbf3f9 0%,#b7e0e5 50%,#7ddbe8 100%);
+    background: radial-gradient(ellipse at center, #dbf3f9 0%,#b7e0e5 50%,#7ddbe8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbf3f9', endColorstr='#7ddbe8',GradientType=1 );
+}
+
+table {
+    width: 260px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+td {
+    width: 20px;
+    height: 20px;
+}
+
+.tree-1 {
+    background: #228B22;
+}
+
+.tree-2 {
+    background: #008000;
+}
+
+.tree-3 {
+    background: #006400;
+}
+
+.text {
+    text-align: center;
+    color: #0000CD;
+    font-size: 45px;
+    font-family: 'Kaushan Script', cursive;
+}
